@@ -51,6 +51,62 @@ Creating for token's JSON, follow CTI structure rule. The current token rule: <b
 
 ![image](https://user-images.githubusercontent.com/13114945/230377388-7d3e1f85-bbda-4f65-99c8-e8d51def5553.png)
 ![image](https://user-images.githubusercontent.com/13114945/230377477-bdf4ec7f-71d6-4fe4-9341-a741c78ba57d.png)
+
+**SENTIMENT:**
+
+Sentiment naming related to variations and variants can be extendable.
+
+**Example sentiments:**
+
+* Success (Green tones)
+* Warning (Yellow tones)
+* Danger (Red tones)
+* Primary
+* Secondary
+* Tertiary
+* Neutral
+* Premium
+
+**USAGE:**
+Usage naming related to where you wanna use that token. 
+
+**Example uesages:**
+
+* Brand/Background
+* Text
+* Icon
+* Border
+* Surface
+
+**PROMINENCE:**
+Prominence naming related to emphasis and prominence can be extendable.
+
+**Example prominences: (extendable in time):**
+
+* Strong/Dark
+* Week/Light
+* Default
+
+**INTERACTION:**
+
+Interaction naming related to what actions can be taken by that user. 
+
+**Example interactions:**
+
+* Default
+* Hovered
+* Disabled
+* Focused
+* Pressed
+
+**STATE:**
+State naming related to what situations it might be and states can be extendable.
+
+### Example states: (extendable in time):
+* Select
+* Default
+
+**Example for design token rule:**
 ![image](https://user-images.githubusercontent.com/13114945/230377568-3f590b09-a5e4-4eb8-be78-05d2026d668a.png)
 
 
