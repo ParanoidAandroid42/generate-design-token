@@ -27,7 +27,7 @@ The following types of design tokens are the building blocks and design decision
 * Example token of primitive.json: <br />
 ![image](https://user-images.githubusercontent.com/13114945/230381934-0be6d2f3-78e9-4c0e-bf10-2ec20652e448.png)
 * Example generated token as css var from primitive.json: <br />
-![image](https://user-images.githubusercontent.com/13114945/230381966-82a08fec-8b33-42e5-a0c4-54eff39cfbc2.png)
+![image](https://user-images.githubusercontent.com/13114945/230382205-c8a12473-bde9-4334-b4dd-e9282df49757.png)
 
 **Decision tokens: (Themes token)**
 
@@ -35,7 +35,7 @@ The following types of design tokens are the building blocks and design decision
 * They can use basic tokens, they need to point another design token.
 * They are creatable multiple times (in each theme-x.json)
 * Example token of themes-{name}.json:
-![image](https://user-images.githubusercontent.com/13114945/230382023-aaa65a9c-332b-433d-b679-2b032f16c19a.png)
+![image](https://user-images.githubusercontent.com/13114945/230382261-a1836f49-7b68-4ba1-9221-f28bd7c2ab26.png)
 * Example generated token as css var from themes-{name} json:
 ![image](https://user-images.githubusercontent.com/13114945/230382086-001257fb-4f86-465f-89f9-15e4b63538fa.png)
 
