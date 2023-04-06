@@ -17,9 +17,6 @@ Design tokens are all the values needed to construct and maintain a design syste
 **Semantic Token** <br /> <br />
 Token aliases let you relate a semantic token to a base token for a specific context or to get a level of abstraction. It helps you communicate the intended purpose of a token independent of the actual/primitive value of the token. For more info : [link](https://www.toolabs.com/learn/tokens/semantics/#:~:text=Token%20aliases%20let%20you%20relate,primitive%20value%20of%20the%20token.)
 
-## Design Token Rule 
-Creating for token's JSON, follow CTI structure rule. The current token rule: <br />  <br />
-![image](https://user-images.githubusercontent.com/78482240/151450641-c8ed512a-e4d2-4473-9411-e2a044a05af8.png)
 
 ## Design Token Types
 The following types of design tokens are the building blocks and design decisions that make up the potato17 design system <br />
@@ -30,8 +27,6 @@ The following types of design tokens are the building blocks and design decision
 * Example token of primitive.json: <br />
 ![image](https://user-images.githubusercontent.com/78482240/157431811-90fbbc43-c520-4a60-b106-15b4585a6ebd.png)
 * Example generated token as css var from primitive.json: <br />
-   ![image](https://user-images.githubusercontent.com/78482240/157427860-e2997014-3b24-4304-9e47-f0690cdffc4c.png)
-<br/>
 
 **Themes tokens:**
 * These tokens can get reference from only primitives tokens
@@ -39,8 +34,6 @@ The following types of design tokens are the building blocks and design decision
 * Example token of themes-{name}.json: <br />
 ![image](https://user-images.githubusercontent.com/78482240/157432161-52abdadf-77dc-4865-8d55-7c297b80022e.png)
 * Example generated token as css var from themes-{name} json: <br />
-  ![image](https://user-images.githubusercontent.com/78482240/157428612-b3a4863d-cb7b-4dff-bedc-8c20f149059b.png)
-<br/>
 
 **Component tokens:**
 * Components should be(ideally) only  base things, please don’t extend if not necessary
@@ -50,11 +43,19 @@ The following types of design tokens are the building blocks and design decision
 * Example token of component.json: <br />
 ![image](https://user-images.githubusercontent.com/78482240/157432921-1d28e024-cb7b-4f09-9b80-da0a02ce1a0a.png)
 * Example generated token as css var from component.json : <br />
-  ![image](https://user-images.githubusercontent.com/78482240/157433043-833d6c41-fc7d-4dff-9aa4-66c40edbe98b.png)
-<br/>
 
 
 :warning: Components + Themes called as a decisions. 
+
+
+## Design Token Rule 
+Creating for token's JSON, follow CTI structure rule. The current token rule: <br />  <br />
+![image](https://user-images.githubusercontent.com/78482240/151450641-c8ed512a-e4d2-4473-9411-e2a044a05af8.png)
+
+![image](https://user-images.githubusercontent.com/13114945/230377388-7d3e1f85-bbda-4f65-99c8-e8d51def5553.png)
+![image](https://user-images.githubusercontent.com/13114945/230377477-bdf4ec7f-71d6-4fe4-9341-a741c78ba57d.png)
+![image](https://user-images.githubusercontent.com/13114945/230377568-3f590b09-a5e4-4eb8-be78-05d2026d668a.png)
+
 
  ## Design Token Schema
 
