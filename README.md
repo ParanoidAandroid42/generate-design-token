@@ -25,14 +25,12 @@ The following types of design tokens are the building blocks and design decision
 * Primitives.json will change only game by game
 * These tokens don’t use reference value(semantic value)
 * Example token of primitive.json: <br />
-![image](https://user-images.githubusercontent.com/78482240/157431811-90fbbc43-c520-4a60-b106-15b4585a6ebd.png)
 * Example generated token as css var from primitive.json: <br />
 
 **Themes tokens:**
 * These tokens can get reference from only primitives tokens
 * They are creatable multiple times (in each theme-x.json)
 * Example token of themes-{name}.json: <br />
-![image](https://user-images.githubusercontent.com/78482240/157432161-52abdadf-77dc-4865-8d55-7c297b80022e.png)
 * Example generated token as css var from themes-{name} json: <br />
 
 **Component tokens:**
@@ -41,7 +39,6 @@ The following types of design tokens are the building blocks and design decision
 * These tokens can get reference from themes or primitives tokens
 * Button-primary-background-color only can not linkable by primary-background-color. You can use other colors as well. For example,  ‘primary’ of decisions(themes) is related to color options that are used in the game. So button-primary-background-color can also settable second(option-1,option-2)-background-color if you want. . Please don’t mixed up that difference because of the names
 * Example token of component.json: <br />
-![image](https://user-images.githubusercontent.com/78482240/157432921-1d28e024-cb7b-4f09-9b80-da0a02ce1a0a.png)
 * Example generated token as css var from component.json : <br />
 
 
