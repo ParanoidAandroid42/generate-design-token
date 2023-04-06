@@ -27,22 +27,12 @@ The following types of design tokens are the building blocks and design decision
 * Example token of primitive.json: <br />
 * Example generated token as css var from primitive.json: <br />
 
-**Themes tokens:**
-* These tokens can get reference from only primitives tokens
+**Decision tokens: (Themes token)**
+
+* These tokens need to reference from primitives tokens.
+* They can use basic tokens, they need to point another design token.
 * They are creatable multiple times (in each theme-x.json)
-* Example token of themes-{name}.json: <br />
-* Example generated token as css var from themes-{name} json: <br />
-
-**Component tokens:**
-* Components should be(ideally) only  base things, please don’t extend if not necessary
-* Component.json will change only game by game
-* These tokens can get reference from themes or primitives tokens
-* Button-primary-background-color only can not linkable by primary-background-color. You can use other colors as well. For example,  ‘primary’ of decisions(themes) is related to color options that are used in the game. So button-primary-background-color can also settable second(option-1,option-2)-background-color if you want. . Please don’t mixed up that difference because of the names
-* Example token of component.json: <br />
-* Example generated token as css var from component.json : <br />
-
-
-:warning: Components + Themes called as a decisions. 
+* Example token of themes-{name}.json:
 
 
 ## Design Token Rule 
