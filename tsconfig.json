@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    // "module": "esnext",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext", "scripthost"],
+    /* Type Checking */
+    "strict": true
+  },
+  "include": ["@types/index.d.ts"]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@generate-token",
+  "license": "ISC",
+  "author": "Potato-17",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "description": "Token-style generator and works in synch with Figma token plugin output",
+  "scripts": {
+    "build": "ts-node ./src/GenerateToken && ts-node build-design-token",
+    "release": "standard-version",
+    "lint": "eslint . --ext .ts"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParanoidAandroid42/ds-tokens.git"
+  },
+  "devDependencies": {
+    "@types/csso": "^5.0.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "17.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "babel-eslint": "^10.1.0",
+    "csso": "^5.0.2",
+    "eslint": "^7.1.0",
+    "fs-extra": "^10.0.0",
+    "glob-concat": "^1.0.2",
+    "standard-version": "^9.3.2",
+    "style-dictionary": "3.1.1",
+    "ts-node": "^10.4.0",
+    "tslib": "^1.9.3",
+    "typescript": "4.5.5"
+  }
+}
